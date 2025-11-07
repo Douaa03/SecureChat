@@ -1,5 +1,7 @@
 package securechat.client;
 
+import securechat.crypto.AESUtils;
+import securechat.crypto.RSAUtils;
 import javax.crypto.SecretKey;
 import java.io.*;
 import java.net.Socket;
