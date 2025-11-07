@@ -46,24 +46,11 @@ SecureChat/
 - Tous les échanges de messages se font via AES.  
 - Le serveur relaie les messages à tous les clients connectés.
 
-## Technologies utilisées  
-- Java 11+ (ou Java 17 recommandé)  
-- `javax.crypto` pour chiffrement AES/RSA  
-- Sockets TCP `ServerSocket`, `Socket`  
-- Threads Java pour gestion multi-clients  
-- Git & GitHub pour versionning  
-- IntelliJ IDEA (ou tout IDE Java) pour développement  
-
-## Prérequis  
-- JDK installé (ex : OpenJDK 11 ou 17)  
-- Git installé  
-- IDE (IntelliJ, Eclipse, VS Code + extension Java)  
-- Environnement réseau local pour tests (localhost ou réseau)  
-
 ## Installation & exécution  
 1. Clone le dépôt :  
-  bash
+  ```bash
    git clone https://github.com/TON_UTILISATEUR/SecureChat.git
+```
 
 2. Dans le terminal, va dans le répertoire du projet :
 
